@@ -21,8 +21,8 @@
   <div class="container">
     <div class="hero-tag">For BLR · April 2026</div>
     <h1>Reclaim the voice.<br>Not just the<em> visibility.</em><br></h1>
-    <p>BLR has built the most trusted compliance library in the industry over 50 years. Today, AI engines cannot reliably find or cite that content because it is not structured for machine extraction.
-    <p>This initiative creates a schema architecture layer that converts existing content into machine-readable units, making BLR’s regulatory expertise accessible to AI systems.</p>
+    <p>BLR has built the most trusted compliance library in the industry over 50 years. Today, AI engines cannot reliably find or cite that content because it is not structured for machine extraction.</p>
+    <p>This engagement creates a schema architecture layer that converts existing content into machine-readable units — including JSON-LD fields carrying substantive regulatory claims, attorney attribution, and product-query signals.</p>
     <p>The objective is to increase qualified discovery from AI platforms and drive more SQLs by ensuring BLR is consistently cited in high-intent compliance queries.</p>
     <div class="hero-meta">
       <!--<span>
@@ -93,24 +93,24 @@
       <div class="build-card">
         <p class="build-num">01</p>
         <p class="build-label">Root identity</p>
-        <p class="build-desc">BLR becomes a named entity on every page. One block. Global. Everything downstream inherits from it.</p>
+        <p class="build-desc">BLR becomes a named entity on every page. Global Organization and WebSite schema, plus <code>llms.txt</code> and Bing IndexNow for direct LLM crawler signaling. Everything downstream inherits from it.</p>
       </div>
       <div class="build-card">
         <p class="build-num">02</p>
-        <p class="build-label">Content classification</p>
-        <p class="build-desc">648 resources sorted into three tiers: cite, trust, separate. One switch in the template.</p>
+        <p class="build-label">Content substance</p>
+        <p class="build-desc">648 resources classified into three authority tiers. Attorney-tagged content enriched with <em>abstract</em>, <em>about</em>, and <em>mentions</em> fields — the substantive regulatory claims LLMs extract and cite verbatim.</p>
       </div>
       <div class="build-card">
         <p class="build-num">03</p>
         <p class="build-label">Attorney graph</p>
-        <p class="build-desc">Named attorneys connected to their credentials, their firms, and the content they wrote. The verification chain that produces citations.</p>
+        <p class="build-desc">65 named attorneys connected to credentials, firm affiliations, and the content they authored. The verification chain that produces <em>"according to [attorney name]"</em> citations instead of anonymous-page references.</p>
       </div>
       <div class="build-card">
         <p class="build-num">04</p>
-        <p class="build-label">Gate stays</p>
-        <p class="build-desc">Gated landing pages structured so AI engines cite BLR without accessing the asset behind the form. The citation is the ad. The gated asset is the product.</p>
+        <p class="build-label">Commercial visibility</p>
+        <p class="build-desc">49 webinars unlocked as citable assets via transcripts. Full marketing-grade schema on HR Hero and EHS Hero product pages — catches <em>"best HR compliance software"</em> queries. The pipeline-relevant layer.</p>
       </div>
-    </div>  
+    </div>
   </div>  
 </section>
 
@@ -119,48 +119,52 @@
   <div class="container">
     <p class="section-tag">The engagement</p>
     <h2>3 months.<br><em>Three clear phases.</em></h2>
-    <p>Nothing starts until the layer beneath it is verified. The root identity goes first because every downstream schema type inherits from it. The content classification goes second because it separates signal from noise across 648 posts. The FAQ engine goes third because it depends on the author graph. Validation goes last because it covers everything.</p>
+    <p>Nothing starts until the layer beneath it is verified. Root identity goes first because every downstream schema type inherits from it. Content wiring goes second because it carries the substance LLMs actually cite. Measurement goes last because it validates everything that shipped against a locked baseline and a competitive reference set.</p>
 
     <div class="retainer-block">
       <h3>AEO Authority Architecture</h3>
 
       <div class="months">
         <div class="month">
-          <div class="month-label">P0 — Root Identity
-        </div>
-        <div class="month-title">BLR exists as a named entity. Crawlers have an unlocked front door.</div>
+          <div class="month-label">P0 — Root Identity · Weeks 1–4</div>
+          <div class="month-title">BLR exists as a named entity. Crawlers have an unlocked front door.</div>
           <ul class="month-items">
             <li>Organization + WebSite schema deployed globally</li>
-            <li>HR Hero and EHS Hero hub schema connected to root</li>
-            <li>BreadcrumbList on all solution pages</li>
-            <li>Sitemap permission errors resolved, Bing submitted</li>
+            <li>HR Hero and EHS Hero hub schema connected to root, BreadcrumbList on all solution pages</li>
+            <li>Sitemap resolved and submitted to Bing Webmaster Tools</li>
+            <li><code>llms.txt</code> deployed and Bing IndexNow API integrated for push-based re-indexation</li>
+            <li>Pre-deployment baseline locked, competitive benchmark captured vs. SHRM, HR Dive, Ogletree Deakins</li>
           </ul>
         </div>
         <div class="month">
-          <div class="month-label">P1 — Content Wiring</div>
-          <div class="month-title">648 posts classified. Attorney graph live. Gated pages citable.</div>
+          <div class="month-label">P1 — Content Wiring · Weeks 5–10</div>
+          <div class="month-title">648 posts classified. Attorney graph live. Webinars citable. Product pages discoverable.</div>
           <ul class="month-items">
-            <li>Each resource type gets its own schema: blogs, guides, news, webinars, case studies, awards, videos, infographics, product demos, product sheets</li>
-            <li>Person schema parsing for all attorney contributors</li>
-            <li>FAQ schema on qualifying gated landing pages</li>
-            <li>Staff editor profiles on /experts/</li>
-            <li>Every schema block tested against Google Rich Results and Schema.org validators. Broken references, missing fields, parse errors caught before they reach a crawler.</li>
+            <li>Conditional schema switch across 648 resource posts, 10 content types, three authority tiers</li>
+            <li>Attorney Person graph: credentials, firm affiliation, <code>sameAs</code> verification for 65 named attorneys</li>
+            <li>Rich <em>Article</em> enrichment — <code>abstract</code>, <code>about</code>, <code>mentions</code>, <code>articleBody</code> for ~188 attorney-tagged posts</li>
+            <li><em>VideoObject</em> schema with transcripts for 49 webinars — unlocks an entire content class as citable</li>
+            <li>Full marketing-grade <em>SoftwareApplication</em> schema on HR Hero and EHS Hero product pages</li>
+            <li>Staff editor profile inventory on <code>/experts/</code> + Branch B Person schema</li>
+            <li>Every block validated against Google Rich Results and Schema.org — zero errors, zero warnings</li>
           </ul>
         </div>
         <div class="month">
-          <div class="month-label">P2 — Baseline</div>
-          <div class="month-title">First real read. Did it move?</div>
+          <div class="month-label">P2 — Measurement · Weeks 11–12</div>
+          <div class="month-title">Measured lift. Named-attorney citations. Final report.</div>
           <ul class="month-items">
-            <li>Attribution accuracy measured across ChatGPT, Perplexity, Bing Chat</li>
-            <li>Indexation velocity compared to pre-implementation crawl data in Profound</li>
-            <li>Entity connectivity confirmed: percentage of attorney-tagged posts with declared author</li>
+            <li>Five-metric read vs. baseline: velocity, connectivity, attribution, citation diversity, competitive share</li>
+            <li>Named-attorney citation showcase — ChatGPT, Perplexity, Bing examples</li>
+            <li>GA4 segment: LLM-referred traffic, demo form starts, HR Hero and EHS Hero trial starts</li>
+            <li>Final engagement report for BLR leadership — what shipped, what moved, what's next</li>
+            <li>Monthly measurement handoff for BLR's internal team</li>
           </ul>
         </div>
       </div>
 
       <div class="retainer-price">
         <div class="price-num">$25,000</div>
-        <div class="price-detail">3 month project scope<br>Fixed cost<br></div>
+        <div class="price-detail">3 month project scope · Fixed cost<br>Includes webinar transcript generation</div>
       </div>
     </div>
   </div>
@@ -179,24 +183,29 @@
 <section id="measurement">
   <div class="container">
     <p class="section-tag">How we know it's working</p>
-    <h2>Three numbers<br><em>measured monthly.</em></h2>
-    <p>No vanity metrics. These three numbers tell you whether the system is working, and they're all trackable in tools BLR already runs.</p>
+    <h2>Four numbers<br><em>measured weekly.</em></h2>
+    <p>No vanity metrics. Four metrics — measured weekly, not monthly — across a 12-week engagement produces 12 data points instead of 2. That's a trend line, not a before/after. Plus a GA4 pipeline segment tying LLM-referred traffic to HR Hero and EHS Hero demo starts.</p>
 
     <div class="measure-grid">
       <div class="measure-card">
         <div class="measure-metric">Velocity</div>
         <div class="measure-label">Publication to crawler first-fetch</div>
-        <p class="measure-desc">How fast LLMs discover new BLR content. Logged in Profound Agent Analytics. Target: measurable reduction within 90 days of P0.</p>
+        <p class="measure-desc">How fast LLMs discover new BLR content. Logged in Profound Agent Analytics. Target: measurable reduction within 90 days of P0 via IndexNow and <code>llms.txt</code>.</p>
       </div>
       <div class="measure-card">
         <div class="measure-metric">Connectivity</div>
         <div class="measure-label">Attorney-to-content graph coverage</div>
-        <p class="measure-desc">Percentage of attorney-tagged posts with declared Person schema. Baseline: 0%. Target: 100% within 60 days of P1.</p>
+        <p class="measure-desc">Percentage of attorney-tagged posts with declared Person schema author. Baseline: 0%. Target: 100% of 188 attorney-tagged posts within 60 days of P1.</p>
       </div>
       <div class="measure-card">
         <div class="measure-metric">Attribution</div>
         <div class="measure-label">LLMs naming BLR as source of truth</div>
-        <p class="measure-desc">Frequency of BLR cited in compliance queries across ChatGPT, Perplexity, Bing Chat. The 17% is the starting line.</p>
+        <p class="measure-desc">Frequency of BLR or a named BLR attorney cited in HR and EHS compliance queries across ChatGPT, Perplexity, Bing Chat. The 17% is the starting line.</p>
+      </div>
+      <div class="measure-card">
+        <div class="measure-metric">Competitive share</div>
+        <div class="measure-label">BLR vs. SHRM, HR Dive, Ogletree</div>
+        <p class="measure-desc">Same 20 queries executed against the citation share of BLR's reference competitors. The delta metric — <em>"BLR closed the gap"</em> is the pitch's anchor datapoint.</p>
       </div>
     </div>
   </div>
